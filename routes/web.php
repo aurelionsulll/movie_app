@@ -18,3 +18,24 @@ Route::get('/', function () {
 });
 
 Route::get('/prof','ProfController@index');
+
+Route::post('createClasse','ProfController@createClasse');
+
+Route::get('createClasseView','ProfController@createClasseView');
+
+
+
+
+Route::post('createProf','ProfController@createProf');
+
+Route::get('createProfView','ProfController@createProfView');
+
+
+Route::post('createCour','CourController@createCour');
+
+Route::get('createCourView','CourController@createCourView');
+
+
+Route::post('createDocument','DocumentController@createDocument');
+
+Route::get('createDocumentView','DocumentController@createDocumentView');
